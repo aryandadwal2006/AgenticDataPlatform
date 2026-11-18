@@ -1,0 +1,22 @@
+# core platform
+numpy>=1.26,<2.2
+pandas>=2.2,<4
+duckdb>=1.1,<2
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+pydantic>=2.8,<3
+pypdf>=5,<7
+beautifulsoup4>=4.12,<5
+
+# machine learning and local embeddings
+scikit-learn>=1.5,<2
+tensorflow-cpu>=2.17,<3
+torch>=2.4
+transformers>=4.45,<6
+sentence-transformers>=3,<6
+
+# agent frameworks and watsonx integration
+langchain>=0.3,<2
+langchain-ibm>=0.3,<2
+crewai>=0.80,<2
+pyarrow>=17,<25
